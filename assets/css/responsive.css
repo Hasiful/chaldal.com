@@ -24,6 +24,10 @@
     .family_section_left{
         width: 70%;
     }
+    .category_item_wrapper_001{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
 }
 /* 
 =======================
@@ -81,6 +85,16 @@
     }
     .footer_left_info {
         text-align: left;
+    }
+    .veiw_bennar_wrapper{
+        flex-direction: row;
+        gap: 0px;
+    }
+    .veiw_picture_left{
+        width: 49%;
+    }
+    .veiw_content_right{
+        width: 49%;
     }
 }
 
@@ -145,6 +159,10 @@
     .footer_info_wrap {
         justify-content: flex-end;
     }
+    .category_item_wrapper_001{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
 }
 
 /* 
@@ -163,6 +181,10 @@
     .love_image_caption_subtitle{
         margin-bottom: 10px;
     }
+    .category_item_wrapper_001{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
 }
 
 @media(min-width: 1270px){
@@ -171,5 +193,9 @@
     }
     .love_image_caption_subtitle{
         margin-bottom: 10px;
+    }
+    .category_item_wrapper_001{
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
     }
 }

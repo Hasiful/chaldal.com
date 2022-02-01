@@ -1,0 +1,172 @@
+.veiw_details_section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(30,39,46,.7);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999;
+}
+.veiw_details_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.veiw_details_content {
+    max-width: 1070px;
+    width: 100%;
+    height: 80vh;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    overflow-y: auto;
+    border-radius: 8px;
+}
+.veiw_details_content::-webkit-scrollbar{
+    width: 0px;
+}
+.veiw_details_bennar{
+    padding: 15px;
+}
+.veiw_bennar_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+.veiw_picture_left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+.veiw_content_right{
+    width: 100%;
+}
+.veiw_image{
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.zoom img{
+    width: 100%;
+}
+.veiw_content_title{
+    
+}
+.veiw_title_heading{
+    letter-spacing: normal;
+    word-wrap: break-word;
+    font-weight: 300;
+    font-size: 25px;
+    color: #000;
+    line-height: 30px;
+    margin: 0 30px 10px 0;
+}
+.veiw_title_weight{
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    margin: 10px 0;
+}
+.veiw_count_amount{
+    color: #444;
+    font-size: 30px;
+    font-weight: 700;
+}
+.veiw_count_amount small{
+    color: #44444444;
+    font-size: 18px;
+    font-weight: 300;
+}
+.veiw_cuount_inner_box{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.veiw_count_box{
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    width: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 65px;
+}
+.veiw_cunter_increament {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #f4f3f3;
+    box-shadow: 0 0 2px #ccc;
+    font-size: 50px;
+    line-height: 30px;
+    color: #818181;
+    font-weight: 300;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.increament_border{
+    border-right: 1px solid #d2d1d1;
+}
+.decreament_border{
+    border-left: 1px solid #d2d1d1;
+}
+.veiw_cunter_middilet{
+    flex-grow: 1;
+}
+.veiw_cunter_middilet p{
+    font-size: 12px;
+    text-align: center;
+    color: #818181;
+    font-weight: 700;
+}
+.veiw_counter_num{
+    font-weight: 700;
+    font-size: 28px !important;
+    line-height: 26px;
+    text-align: center;
+    color: #818181;
+}
+.veiw_count_button{
+    width: 35%;
+    height: 65px;
+}
+.veiw_count_button a{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 15%);
+    background-color: #fb7679;
+    outline: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.veiw_count_button a:hover{
+    background-color: #fa4449;
+}
+.veiw_page_divider {
+    height: 2px;
+    background: #f1efef;
+    width: 80%;
+    margin: 30px auto;
+}
+.veiw_product_caption p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
