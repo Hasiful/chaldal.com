@@ -28,6 +28,9 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+    .subcategory_wrapper_002{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 /* 
 =======================
@@ -163,6 +166,9 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
     }
+    .subcategory_wrapper_002{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 /* 
@@ -185,6 +191,9 @@
         grid-template-columns: repeat(5, 1fr);
         gap: 20px;
     }
+    .subcategory_wrapper_002{
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
 
 @media(min-width: 1270px){
@@ -197,5 +206,8 @@
     .category_item_wrapper_001{
         grid-template-columns: repeat(6, 1fr);
         gap: 20px;
+    }
+    .subcategory_wrapper_002{
+        grid-template-columns: repeat(6, 1fr);
     }
 }

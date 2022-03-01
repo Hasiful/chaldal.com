@@ -1,0 +1,48 @@
+.subcategory_bennar_002{
+    display: flex;
+    justify-content: center;
+}
+.bennar_image_002{
+    max-width: 700px;
+    width: 100%;
+}
+.bennar_image_002 img{
+    width: 100%;
+}
+.subcategory_title_002 p{
+    color: #615e58;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0px 10px 10px 10px;
+    display: inline-block;
+}
+.subcategory_title_002 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.subcategory_product_002 {
+    padding: 0 20px;
+}
+.subcategory_wrapper_002{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.subcategory_item_002{
+    cursor: pointer;
+}
+.subcategory_item_002:hover .subcategory_item_caption_002{
+    text-decoration: underline;
+}
+.subcategory_item_picture_002{
+    
+}
+.subcategory_item_picture_002 img{
+    width: 100%;
+}
+.subcategory_item_caption_002{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: #615e58;
+}

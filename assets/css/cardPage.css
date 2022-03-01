@@ -1,0 +1,148 @@
+.card_page_section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.card_page_container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.card_page_wrapper {
+    max-width: 320px;
+    width: 100%;
+    box-shadow: -2px 0 12px 0 rgb(143 143 143 / 38%);
+    background-color: #FFF;
+    margin-top: 55px;
+    overflow-y: auto;
+}
+.card_menu_inner{}
+.card_header_top{
+    background-color: #e4e0e1;
+    height: 39px;
+    cursor: pointer;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_top_left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card_top_svg{
+    display: inline-block;
+}
+.card_top_svg svg{
+    fill: #4e4e4e!important;
+    stroke: #4e4e4e!important;
+}
+.Card_top_count{
+    display: inline-block;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card_top_button{
+  
+}
+.card_top_button a{
+    font-size: 12px;
+    font-weight: 300;
+    color: #4f4f4f;
+    border: 1px solid #62615f;
+    padding: 3px 15px 3px;
+}
+.card_top_button a:hover{
+    background-color: #bdbaba;
+}
+.card_bottom_inner{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 8px;
+    background-color: #f6f6f6!important;
+    height: 39px!important;
+}
+.card_hourse_svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_hourse_svg svg{
+    fill: #4e4e4e;
+    height: 20px;
+    width: 20px;
+}
+.card_bottom_title{
+    color: #4e4e4e;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header_center_delivery{
+    padding: 0px 8px;
+    background-color: #97cd6d;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 34px;
+
+}
+.delivery_right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.delivery_charge span{
+    font-size: 10px;
+}
+.card_product{
+    height: calc(100vh - 282px);
+    overflow-y: auto;
+}
+.card_order_button{
+    padding: 0px 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.card_order_button_left {
+    height: 100%;
+    width: 60%;
+    background-color: #ff8182;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_order_button_left a{
+    color: #FFF;
+    font-weight: 400;
+}
+.card_order_button_right {
+    background-color: #e04f54;
+    width: 40%;
+    height: 100%;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_order_button_right a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
